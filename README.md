@@ -230,9 +230,28 @@ You search by MEMORY.
 
 ──────────────────────────────────────────────────────────────
 
+WINDOWS
+
+  LOCUS
+
+Linux
+
+  loogal
+
+Same engine.
+Different form.
+
+──────────────────────────────────────────────────────────────
+
 INDEX YOUR WORLD
 
-  ./LOCUS index ~/Pictures
+Windows:
+
+  LOCUS → Add Folder(s)
+
+Linux:
+
+  ./loogal index ~/Pictures
 
 Scans your image universe.
 Builds a local visual memory engine.
@@ -244,7 +263,14 @@ The beginning.
 
 OPEN THE WINDOW
 
-  ./LOCUS-window
+Windows:
+
+  Double-click:
+  locus-desktop.exe
+
+Linux:
+
+  ./loogal-window
 
 Drag.
 Drop.
@@ -263,7 +289,9 @@ your image → your memory → your results
 
 SEARCH BY IMAGE
 
-  ./LOCUS search meme.png
+Linux:
+
+  ./loogal search meme.png
 
 Find every version.
 Every crop.
@@ -277,7 +305,9 @@ Even if you buried it months ago.
 
 SEARCH EVERYTHING YOU'VE INDEXED
 
-  ./LOCUS search screenshot.jpg --memory
+Linux:
+
+  ./loogal search screenshot.jpg --memory
 
 Not a folder.
 
@@ -287,7 +317,9 @@ Your ENTIRE visual memory.
 
 FIND NEAR DUPLICATES
 
-  ./LOCUS similar vacation_photo.png
+Linux:
+
+  ./loogal similar vacation_photo.png
 
 Compressed copies.
 Screenshots.
@@ -296,15 +328,17 @@ Saves from Discord.
 Telegram reposts.
 Tiny edits.
 
-LOCUS still remembers.
+Loogal still remembers.
 
 ──────────────────────────────────────────────────────────────
 
 BUILD A LIVING MEMORY
 
-  ./LOCUS watch-add ~/Pictures --hourly
+Linux:
 
-Tell LOCUS where your life happens.
+  ./loogal watch-add ~/Pictures --hourly
+
+Tell Loogal where your life happens.
 
 Screenshots.
 Downloads.
@@ -316,11 +350,13 @@ Research dumps.
 
 START THE DAEMON
 
-  ./LOCUS watch-start
+Linux:
+
+  ./loogal watch-start
 
 Now forget indexing exists.
 
-LOCUS quietly watches your world evolve.
+Loogal quietly watches your world evolve.
 
 Every new image:
 remembered.
@@ -337,7 +373,9 @@ Forever.
 
 DEDUPE THE ABYSS
 
-  ./LOCUS dedupe --dry-run
+Linux:
+
+  ./loogal dedupe --dry-run
 
 See how much visual clutter you've accumulated.
 
@@ -359,7 +397,7 @@ THE PROMISE
 
 If the image exists anywhere on your machine...
 
-LOCUS should lead you back to it.
+Loogal should lead you back to it.
 ```
 
 ---------------------------------
