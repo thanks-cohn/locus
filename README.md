@@ -243,6 +243,39 @@ Different form.
 
 ──────────────────────────────────────────────────────────────
 
+LINUX QUICK START
+
+Clone:
+
+  git clone https://github.com/thanks-cohn/loogal.git
+
+Enter:
+
+  cd loogal
+
+Build:
+
+  make
+  make loogal-window
+
+Index your world FIRST:
+
+  ./loogal index ~/Pictures
+
+Then open the GUI:
+
+  ./loogal-window
+
+Boom.
+
+Drag an image in.
+
+Loogal searches everything it has already remembered.
+
+Done.
+
+──────────────────────────────────────────────────────────────
+
 INDEX YOUR WORLD
 
 Windows:
@@ -406,7 +439,7 @@ THE PROMISE
 
 If the image exists anywhere on your machine...
 
-Loogal should lead you back to it. 
+Loogal should lead you back to it.
 ```
 
 ---------------------------------
