@@ -397,7 +397,7 @@ THE PROMISE
 
 If the image exists anywhere on your machine...
 
-Loogal should lead you back to it.
+Loogal should lead you back to it. 
 ```
 
 ---------------------------------
