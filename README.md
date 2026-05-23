@@ -270,7 +270,13 @@ Windows:
 
 Linux:
 
-  ./loogal-window
+  Build GUI:
+
+    make loogal-window
+
+  Run GUI:
+
+    ./loogal-window
 
 Drag.
 Drop.
@@ -283,7 +289,10 @@ No upload.
 No accounts.
 
 Just:
-your image → your memory → your results
+
+  your image
+    → your memory
+      → your results
 
 ──────────────────────────────────────────────────────────────
 
@@ -348,11 +357,11 @@ Research dumps.
 
 ──────────────────────────────────────────────────────────────
 
-START THE DAEMON
+RUN THE WATCHER
 
 Linux:
 
-  ./loogal watch-start
+  ./loogal watch-run
 
 Now forget indexing exists.
 
@@ -397,7 +406,7 @@ THE PROMISE
 
 If the image exists anywhere on your machine...
 
-Loogal should lead you back to it. 
+Loogal should lead you back to it.
 ```
 
 ---------------------------------
